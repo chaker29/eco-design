@@ -1,6 +1,6 @@
 div.top-image{
     position: relative;
-    background-image: url(/eco-store/images/bac.jpg);
+    background-image: url(../../images/bac.jpg);
     height: 100vh;
     background-position: center;
     background-size: cover;
