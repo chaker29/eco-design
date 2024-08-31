@@ -1,0 +1,86 @@
+header.flex
+{
+    justify-content: space-between;
+    padding-inline: 10%;
+    padding-top: 1.2rem;
+}
+header.flex .sign, header.flex .register{
+    border: 1px solid rgb(0, 0, 0);
+    margin-inline: 1rem;
+    padding: 0.44rem 1rem;
+    border-radius: 55px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    .fa-solid{
+        margin-right: 0.2rem;
+    }
+} 
+  header.flex .register:hover{
+    background-color: var(--bodyFont);
+    color: var(--blue);
+    .fa-solid{
+        color: var(--blue);
+    }
+}
+header.flex .sign:hover{
+    background-color: var(--bodyFont);
+    color: var(--blue);
+    .fa-solid{
+        color: var(--blue);
+   
+    }
+}
+header.flex .card{
+    background-color: var(--bodyFont);
+    color: var(--blue);
+    font-size: 0.9rem;
+    padding: 0.44rem 1.1rem 0.44rem 0.6rem;
+    border-radius: 55px;
+    cursor: pointer;
+    .fa-solid{
+        color: var(--blue);
+    } 
+    .fav{
+        border: none solid ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 90, 123);
+        color: white;
+        font-weight: 0.7rem;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        position: absolute;
+        top: -6.8px;
+        right:0;
+    } 
+    
+}
+header.flex .logo  {
+    .fa-bag-shopping{
+        font-size: 2rem;
+        margin-right: 0.2rem;
+    }
+}
+@media (width<600px){
+   
+    header.flex{
+        justify-content: center;
+        padding: none;
+        .logo{
+            display: none;
+        }
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+        }
+    }
+}
+
+    
+
+
